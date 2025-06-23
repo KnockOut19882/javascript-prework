@@ -86,3 +86,20 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+footer p {
+  color: white;
+  font-size: 20px;
+}
+
+.col-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.col-9 i:hover {
+  color: white;
+  cursor: pointer;
+}
