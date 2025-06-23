@@ -64,6 +64,15 @@ section .container {
 .button-cirkle:hover {
   background-color: lightblue;
   cursor: pointer;
+}
 
+#messages {
+  font-size: 30px;
+  text-align: center;
+}
 
+.score {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
 }
