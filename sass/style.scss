@@ -1,3 +1,6 @@
+
+
+
 /* Header Styles */
 
 header {
@@ -53,4 +56,14 @@ section .container {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  border: 2px solid blue;
+  margin: 100px 0;
+
+}
+
+.button-cirkle:hover {
+  background-color: lightblue;
+  cursor: pointer;
+
+
 }
