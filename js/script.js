@@ -14,8 +14,7 @@ window.onload = function() {
   function buttonClicked(argButtonName) {
     clearMessages();
     console.log(argButtonName + ' został kliknięty');
-
-    var playerMove = argButtonName;
+    const playerMove = argButtonName;
     console.log('ruch gracza to: ' + playerMove);
     var randomNumber = Math.floor(Math.random() * 3 + 1);
     console.log('wylosowana liczba to: ' + randomNumber);
