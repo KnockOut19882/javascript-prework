@@ -18,18 +18,20 @@
 			<i class="fa-solid fa-hand-scissors"></i>
 		</div>
 	</header>
-	<div class="container">
-		<div id="buttons">
-			<button type="button" id="button-rock">Kamień</button>
-			<button type="button" id="button-paper">Papier</button>
-			<button type="button" id="button-scissors">Nożyce</button>
+	<section>
+		<div class="container">
+			<div id="buttons">
+				<button type="button" id="button-rock"><i class="fa-solid fa-hand-fist"></i></button>
+				<button type="button" id="button-paper"><i class="fa-solid fa-hand-paper"></i></button>
+				<button type="button" id="button-scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+			</div>
+			<div id="messages"></div>
+			<div>
+				Twój wynik: <span id="player-score">0</span><br>
+				Wynik komputera: <span id="computer-score">0</span>
+			</div>
 		</div>
-		<div id="messages"></div>
-		<div>
-  		Twój wynik: <span id="player-score">0</span><br>
-  		Wynik komputera: <span id="computer-score">0</span>
-		</div>
-	</div>
+	</section>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
