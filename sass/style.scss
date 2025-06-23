@@ -13,5 +13,14 @@ header p {
   font-size: 20px;
   text-align: center;
   color: white;
-  
+
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+  gap: 100px;
 }
