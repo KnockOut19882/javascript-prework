@@ -24,11 +24,11 @@ window.onload = function() {
     printScore();
   }
 
-  var button_rock = document.getElementById('button-rock');
+  const button_rock = document.getElementById('button-rock');
   button_rock.addEventListener('click', function(){ buttonClicked('kamień'); });
-  var button_paper = document.getElementById('button-paper');
+  const button_paper = document.getElementById('button-paper');
   button_paper.addEventListener('click', function(){ buttonClicked('papier'); });
-  var button_scissors = document.getElementById('button-scissors');
+  const button_scissors = document.getElementById('button-scissors');
   button_scissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
   function getMoveName(argMoveId) {
